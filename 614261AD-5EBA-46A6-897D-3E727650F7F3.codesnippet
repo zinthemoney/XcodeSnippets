@@ -3,24 +3,27 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>mmmmmmmmmmmm</string>
+	<string>dispatchseriallllllllll</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MARK: &lt;# -- #&gt;</string>
+	<string>      let serialQueue = DispatchQueue(label: "&lt;#queuename#&gt;")
+      serialQueue.sync {
+        &lt;# -- #&gt;
+      }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>D0405D5F-85EB-4EE3-8CAB-A12D55FE72F7</string>
+	<string>614261AD-5EBA-46A6-897D-3E727650F7F3</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>SWIFT MARK</string>
+	<string>Create a serial queue</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>SWIFT MARK</string>
+	<string>SWIFT DISPATCH SERIAL</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

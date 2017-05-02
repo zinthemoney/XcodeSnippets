@@ -3,21 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>mmmmmmmmmmmm</string>
+	<string>singletonnnnnnnnnnnnn</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MARK: &lt;# -- #&gt;</string>
+	<string>  static let shared = &lt;# Class #&gt;()
+  private init() {} //This prevents others from using the default '()' initializer for this class.</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>D0405D5F-85EB-4EE3-8CAB-A12D55FE72F7</string>
+	<string>3EA3D52B-8916-490C-85B3-348463877089</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>SWIFT MARK</string>
+	<string>SWIFT SINGLETON</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>SWIFT MARK</string>
+	<string>SWIFT SINGLETON</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

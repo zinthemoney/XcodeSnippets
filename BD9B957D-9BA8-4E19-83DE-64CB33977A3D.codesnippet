@@ -3,24 +3,27 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>mmmmmmmmmmmm</string>
+	<string>dispatchconcurrenttttttttttt</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MARK: &lt;# -- #&gt;</string>
+	<string>      let concurrentQueue = DispatchQueue(label: "&lt;#queuename#&gt;", attributes: .concurrent)
+      concurrentQueue.sync {
+       &lt;# -- #&gt;
+      }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>D0405D5F-85EB-4EE3-8CAB-A12D55FE72F7</string>
+	<string>BD9B957D-9BA8-4E19-83DE-64CB33977A3D</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>SWIFT MARK</string>
+	<string>Creating a concurrent queue</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>SWIFT MARK</string>
+	<string>SWIFT DISPATCH CONCURRENT</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
