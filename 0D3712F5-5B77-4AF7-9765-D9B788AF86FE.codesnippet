@@ -3,23 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>Dispatchsynchronouslyyyyyyyy</string>
+	<string>availableeeeeeeeeeeeeeeeeee</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>      DispatchQueue.main.sync {
-        &lt;# -- #&gt;
-      }</string>
+	<string>if #available(iOS 10.0, *) {</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>EEF260C4-8CC6-449E-86E4-ADB9B3615BFA</string>
+	<string>0D3712F5-5B77-4AF7-9765-D9B788AF86FE</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Get main queue synchronously</string>
+	<string>iOS AVAILABLE API CHECK</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>SWIFT DISPATCH SYNCHRONOUSLY</string>
+	<string>iOS AVAILABLE API CHECK</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

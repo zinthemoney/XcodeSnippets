@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>pppppppppressssss</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>  override func pressesBegan(_ presses: Set&lt;UIPress&gt;, with event: UIPressesEvent?) {
+    for item in presses {
+      if item.type == .playPause {
+        
+      }
+    }
+  }
+  
+  override func pressesEnded(_ presses: Set&lt;UIPress&gt;, with event: UIPressesEvent?) {
+    for item in presses {
+      if item.type == .playPause {
+        
+      }
+    }
+  }
+  
+  override func pressesChanged(_ presses: Set&lt;UIPress&gt;, with event: UIPressesEvent?) {
+    for item in presses {
+      if item.type == .playPause {
+        
+      }
+    }
+  }
+  
+  override func pressesCancelled(_ presses: Set&lt;UIPress&gt;, with event: UIPressesEvent?) {
+    for item in presses {
+      if item.type == .playPause {
+        
+      }
+    }
+  }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>10B61F03-41AF-4EB5-A572-B30787052056</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>presses handling</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

@@ -3,23 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>Dispatchsynchronouslyyyyyyyy</string>
+	<string>ssssssss</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>      DispatchQueue.main.sync {
-        &lt;# -- #&gt;
-      }</string>
+	<string>        &lt;#box#&gt;.snp.makeConstraints { (make) -&gt; Void in
+          make.edges.equalTo(superview)
+        }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>EEF260C4-8CC6-449E-86E4-ADB9B3615BFA</string>
+	<string>83B0080E-F6C1-4C48-8DA4-A2EDBD9788E9</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>Get main queue synchronously</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>SWIFT DISPATCH SYNCHRONOUSLY</string>
+	<string>SNAPKIT SUPER</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

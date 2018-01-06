@@ -3,23 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>Dispatchsynchronouslyyyyyyyy</string>
+	<string>randommmmmmmmmmmmmmhex-quad-string</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>      DispatchQueue.main.sync {
-        &lt;# -- #&gt;
-      }</string>
+	<string>  private func randomHexQuad() -&gt; String {
+    return NSString(format: "%X%X%X%X",
+                    arc4random() % 16,
+                    arc4random() % 16,
+                    arc4random() % 16,
+                    arc4random() % 16
+      ) as String
+  }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>EEF260C4-8CC6-449E-86E4-ADB9B3615BFA</string>
+	<string>1B474DEB-D702-454A-907D-D6CEEC567749</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>Get main queue synchronously</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>SWIFT DISPATCH SYNCHRONOUSLY</string>
+	<string>SWIFT GENERATE RANDOM STRING</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

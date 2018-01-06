@@ -3,23 +3,31 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>Dispatchsynchronouslyyyyyyyy</string>
+	<string>initvvvvvvviewsubclasssss</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>      DispatchQueue.main.sync {
-        &lt;# -- #&gt;
-      }</string>
+	<string>  // MARK: -
+  // MARK: Init
+  override init (frame : CGRect) {
+    super.init(frame : frame)
+  }
+  
+  convenience init() {
+    self.init(frame:CGRect.zero)
+  }
+  
+  required init?(coder aDecoder: NSCoder) {
+    super.init(coder: aDecoder)
+  }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>EEF260C4-8CC6-449E-86E4-ADB9B3615BFA</string>
+	<string>3F57FF6D-4EF3-46B0-9469-FB97D6858EBA</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>Get main queue synchronously</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>SWIFT DISPATCH SYNCHRONOUSLY</string>
+	<string>VIEW SUBCLASSING INIT</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
